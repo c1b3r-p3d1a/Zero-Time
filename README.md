@@ -13,7 +13,7 @@
 
 ## Installation
 There are 2 ways:
-- Go to "Releases" and download the latest
+- Go to "Releases" and download the [latest](https://github.com/c1b3r-p3d1a/Zero-Time/releases/latest)
 - Cloning this repository
     ```
     git clone https://github.com/c1b3r-p3d1a/Zero-Time.git
