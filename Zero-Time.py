@@ -75,6 +75,11 @@ def rmv_prnt_cntrl():
         subprocess.check_output(["sc", "stop", "WpcMonSvc"])
         print("\t\t  [+] State > %s"%get_prnt_cntrl_state())
         print("\n[+] Parental controls disabled correctly")
+        restart = input("[+] Restart required. Restart now? (y/n): ")
+        if restart == "y":
+            os.system("shutdown /r /t 0")
+        else:
+            pass
         input("\n[+] Press enter to finish...")
         main()
     except Exception as e:
@@ -87,6 +92,11 @@ def enbl_prnt_cntrl():
         subprocess.check_output(["sc", "start", "WpcMonSvc"])
         print("\t\t[+] State > %s"%get_prnt_cntrl_state())
         print("\n[+] Parental controls enabled correctly")
+        restart = input("[+] Restart required. Restart now? (y/n): ")
+        if restart == "y":
+            os.system("shutdown /r /t 0")
+        else:
+            pass
         input("\n[+] Press enter to finish...")
         main()
     except Exception as e:
