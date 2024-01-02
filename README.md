@@ -10,8 +10,6 @@
 
 - **On-Demand Activation**: Activate or deactivate the time limit bypass feature whenever you need it, putting you in charge of your computing time.
 
-- **Incognito Mode**: While the time limit is disabled, your usage time is not recorded by Microsoft Family Safety, providing a discreet way to extend your computer time without your parents noticing.
-
 
 ## Installation
 There are 2 ways:
